@@ -40,7 +40,10 @@ if desafio >= 1 and desafio <=4:
                 tentativas -= 1
             elif abrir >= 10 and abrir <= 20:
                 print('''Você conseguiu abrir o baú!!
+                
 Conteúdo:
 1 poção de vida''')
+
+ print('Você achou uma poção de vida!!')
 
 
