@@ -52,15 +52,6 @@ def testeAtk(): #Teste de Ataque
     res_atk = d20_a + personagem['atk']
     return res_atk
 
-def dano_causado1():
-    dano_causado1 = personagem['atk'] - monstros['MonstroFraco']['hp']
-
-def dano_causado2():
-    dano_causado2 = personagem['atk'] - monstros['MonstroMedio']['hp']
-
-def dano_causado3():
-    dano_causado3 = personagem['atk'] - monstros['MonstroDificil']['hp']
-
 print(f'Seja bem-vindo, {nome}. Você está entrando na caverna... ')
 print('Carregando...')
 time.sleep(1)
